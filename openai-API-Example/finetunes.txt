@@ -1,0 +1,2 @@
+{"prompt": "¿Cuándo fue fundada la universidad?", "La universidad fue fundada en 1880"}
+{"prompt": "¿En qué ciudad está ubicada?", "En Santa Cruz"}
