@@ -1,6 +1,10 @@
 # Chatbot project
 
-In order to run the application, it is recommended for you to create a virtual environment by issuing the following commands:
+You should first add your OpenAI secret key to an environment variable, for example:
+
+```export OPENAI_API_KEY=<your key here>```
+
+Then, in order to run the application, it is recommended for you to create a virtual environment by issuing the following commands:
 
 ```python3 -m venv venv```
 
