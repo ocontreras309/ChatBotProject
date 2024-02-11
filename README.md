@@ -4,6 +4,8 @@ In order to run the application, it is recommended for you to create a virtual e
 
 ```pip -m venv venv```
 
+```source venv/bin/activate```
+
 Then, you should install the dependencies of the project with:
 
 ```pip install -r requirements.txt```
