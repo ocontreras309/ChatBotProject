@@ -1,6 +1,6 @@
 # Chatbot project
 
-In order to run the application, it is recommended for you to create a virtual environment by issuing the following command:
+In order to run the application, it is recommended for you to create a virtual environment by issuing the following commands:
 
 ```pip -m venv venv```
 
