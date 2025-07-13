@@ -7,7 +7,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain_core.prompts.chat import MessagesPlaceholder
 
 template = """
-Eres un asistente virtual del CEBTIC. Los clientes te harán preguntas sobre cursos y sus precios.\n\n
+Eres un asistente virtual de nuestro instituto. Los clientes te harán preguntas sobre cursos y sus precios.\n\n
 
 Ubicación del instituto: Av. América Este. Edificio Ferrara Piso 1 Oficina 2\n
 Ciudad de Cochabamba, Bolivia\n
