@@ -1,5 +1,7 @@
 # Chatbot project
 
+You should first create an API key in OpenAI and make sure you have enough credits to consume OpenAI tokens.
+
 You should first add your OpenAI secret key to an environment variable, for example:
 
 ```export OPENAI_API_KEY=<your key here>```

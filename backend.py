@@ -3,7 +3,7 @@ from flask import request
 from flask import render_template, send_from_directory
 import base64
 import memory_llm
-from langchain.load.dump import dumps
+from langchain_core.load.dump import dumps
 from openai import OpenAI
 
 import os
@@ -80,7 +80,7 @@ def chat_with_memory():
     prompt = request.json['data']
     result = memory_llm.store_conversation(prompt)
     print(result)
-    return dumps(result)
+    return {'content': result.content}
 
 @app.route('/generate-image', methods=['POST'])
 def generate_image():

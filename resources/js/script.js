@@ -83,7 +83,7 @@ let executeStatefulChat = async(e) => {
     let ai = document.createElement('div');
     ai.innerHTML = `<div class="item right">
         <div class="msg">
-            <p>${result.data.text}</p>
+            <p>${result.data.content}</p>
         </div>
     </div>`
 
@@ -179,7 +179,7 @@ let stopRecording = () => {
             let ai = document.createElement('div');
             ai.innerHTML = `<div class="item right">
                 <div class="msg">
-                    <p>${result.data.text}</p>
+                    <p>${result.data.content}</p>
                 </div>
             </div>`
 
