@@ -29,6 +29,10 @@ También vendemos kits de robótica educativa.\n
 Si no conoces la respuesta, que manden un correo a info.cebtic@gmail.com
 """
 
+@app.route('/', methods=['GET'])
+def index():
+    return render_template('stateless_chat.html')
+
 @app.route('/stateless-chat', methods=['GET'])
 def stateless_chat():
     return render_template('stateless_chat.html')
